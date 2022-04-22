@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/downloading.xml" value="0.25555555555555554" />
+        <entry key="app/src/main/res/drawable/error.xml" value="0.25555555555555554" />
+        <entry key="app/src/main/res/layout/activity_add_event.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_add_event_manually.xml" value="0.29528985507246375" />
+        <entry key="app/src/main/res/layout/activity_edit_event_stand.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_manually_edit_event.xml" value="0.35070349140177176" />
+        <entry key="app/src/main/res/layout/activity_search_event.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_view_event_details.xml" value="0.35" />
+        <entry key="app/src/main/res/layout/adsf.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/editable_row_view.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/event_list_element.xml" value="0.35052083333333334" />
+        <entry key="app/src/main/res/layout/event_list_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/event_list_item_view.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/stand_info_header.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/stand_info_header_and_content.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/stand_menu_item.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/test.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/event_detail_menu.xml" value="0.35" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

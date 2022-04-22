@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.EditEventManuallyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/generalInputFieldsLayoutEditEventManuallyActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/generalInfoInputHeaderTextViewEditEventManuallyActivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/general_info"
+                    style="@style/h1"
+                    />
+
+                <EditText
+                    android:id="@+id/eventNameEditTextEditEventManuallyActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="Name of event"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    tools:ignore="TextFields" />
+
+                <TextView
+                    android:id="@+id/eventDateTextViewForDatePickerEditEventManuallyActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/date"
+                    android:textColor="?attr/editTextColor"
+                    android:background="?attr/editTextBackground"
+                    android:gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceMediumInverse"
+                    />
+
+                <EditText
+                    android:id="@+id/imageURLEditTextViewEditEventManuallyActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="@string/image_jpg_url"
+                    android:inputType="text"
+                    android:minHeight="48dp"
+                    tools:ignore="TextFields" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/currencyInfoLayout"
+                app:layout_constraintTop_toBottomOf="@id/generalInputFieldsLayoutEditEventManuallyActivity"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/valutaInputHeaderEditEventManuallyActivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Currency"
+                    style="@style/h1"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:id="@+id/euroSignEditEventManuallyActivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="€"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        />
+
+                    <EditText
+                        android:id="@+id/currencyEditTextEditEventManuallyActivity"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:inputType="numberDecimal"
+                        android:autofillHints="" />
+
+                    <TextView
+                        android:id="@+id/singleTokenTextViewEditEventManuallyActivity"
+                        android:gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=" = 1 token"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/deleteButtonEditEventManuallyActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:text="Delete"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/currencyInfoLayout" />
+
+            <View
+                android:id="@+id/dividerEditEventStandActivity"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00FFFFFF" />
+
+            <Button
+                android:id="@+id/saveEventButtonEditEventManuallyActivity"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/currencyInfoLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Save!"/>
+        </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

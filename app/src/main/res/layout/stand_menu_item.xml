@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
+
+    <TextView
+        android:id="@+id/nameTextViewStandMenuItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:text="@string/stand_name"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/tokenImageViewStandMenuItem"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/token" />
+
+    <TextView
+        android:id="@+id/tokenCostTextViewStandMenuItem"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="Token cost"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <View
+        android:id="@+id/dividerStandMenuItem"
+        android:layout_width="15dp"
+        android:layout_height="20dp" />
+
+    <ImageView
+        android:id="@+id/euroSignImageView"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/euro" />
+
+    <TextView
+        android:id="@+id/euroCostTextView"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="Euro cost"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+</androidx.appcompat.widget.LinearLayoutCompat>

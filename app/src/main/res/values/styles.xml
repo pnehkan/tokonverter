@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="h1" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/oswald</item>
+        <item name="android:textColor">@color/dark_maroon</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="secondaryButton">
+        <item name="backgroundTint">@color/green_200</item>
+    </style>
+
+</resources>

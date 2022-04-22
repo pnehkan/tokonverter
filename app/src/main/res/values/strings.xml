@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tokonverter</string>
+    <string name="add_an_event">Add an Event</string>
+    <string name="search_the_internet">Search the internet</string>
+    <string name="general_info">General info</string>
+    <string name="date">Date</string>
+    <string name="image_jpg_url">Image JPG url</string>
+    <string name="event_or_festival_name">Event or festival name</string>
+    <string name="event_name">Event Name</string>
+    <string name="event_date">Event Date</string>
+    <string name="todo">TODO</string>
+    <string name="eventimage">EventImage</string>
+    <string name="add_a_new_food_or_drink_stand">Add a new food or drink stand</string>
+    <string name="general_stand_info">General Stand Info</string>
+    <string name="take_a_picture">take a picture</string>
+    <string name="name_of_stand">Name of stand</string>
+    <string name="stand_name">Stand name</string>
+</resources>

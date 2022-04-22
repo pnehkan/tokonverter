@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="48dp">
+    <EditText
+        android:id="@+id/editMenuItemEditTextEditableRowView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/tokenCostEditTextNumberDecimalEditableRowView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="cost in tokens"
+        android:inputType="numberDecimal" />
+
+    <ImageButton
+        android:id="@+id/deleteRowButtonEditableRowView"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:background="#00FFFFFF"
+        android:src="@android:drawable/ic_delete" />
+
+    <TextView
+        android:id="@+id/secretMenuItemIDTextViewEditableRowView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
