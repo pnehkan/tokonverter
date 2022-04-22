@@ -1,5 +1,6 @@
 # Tokonverter
 A basis for an app that converts event token prices into more understandable currencies.
+This app was made within 3 days as part of a project for the Associate Degree Software Development.
 
 ## The idea
 Festivals like cryptic currencies that make it hard to discern the real price of their food and drinks.
